@@ -3,6 +3,7 @@ class Point {
 	double x,y;
 
 	//TODO add new variable
+    String boja = "zolta"
 
 	//TODO constructor
 
