@@ -78,3 +78,22 @@ class Point {
         System.out.printf("x: %.2f y: %.2f", x, y);
 	}
 }
+
+class Canvas
+{
+    ArrayList<Point> lista=new ArrayList<>();
+
+    public void brisi(ArrayList<Point> lista)
+    {
+        for(int i=0;i<lista.size();i++)
+        {
+            lista.remove(i); //da receme sakame da gi izbriseme site tocki edna po edna
+        }
+    }
+    public void dodadi(ArrayList<Point> lista)
+    {
+        Point tocka=new Point("sesta",6,0,"rozeva");
+        lista.add(tocka); //da receme dodavame 6ta tocka
+    }
+
+}
